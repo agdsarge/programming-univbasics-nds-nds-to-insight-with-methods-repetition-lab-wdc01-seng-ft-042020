@@ -52,8 +52,8 @@ def total_gross(source)
   while dir_ind < dir_array.length do
     direc = dir_array[dir_ind]
     running_total += directors_totals(direc)
-  #  dir_ind += 1
-  #end
+    dir_ind += 1
+  end
   #puts ">>>" 
   #puts running_total
   return running_total  
