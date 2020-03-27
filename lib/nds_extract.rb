@@ -30,7 +30,7 @@ def list_of_directors(source)
     result.push(source[source_index][:name])
     source_index += 1
   end
-  return result
+  return result 
 end
 
 def total_gross(source)
@@ -51,7 +51,7 @@ def total_gross(source)
   dir_ind = 0
   while dir_ind < dir_array.length do
     direc = dir_array[dir_ind]
-    running_total += directors_totals(direc)
+    running_total += directors_totals(dir_array[dir_ind]) #directors_totals() returns a hash
     dir_ind += 1
   end
   #puts ">>>" 
