@@ -26,7 +26,8 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  puts source.class 
+  puts source
+  #source is an array of hashes
 end
 
 def total_gross(source)
