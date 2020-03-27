@@ -10,7 +10,7 @@ def directors_totals(source)
     director_index += 1
   end
   result
-end #returns a hash. {"Spielberg" => gross director, . . . }
+end #returns a hash. {"Spielberg" => gross director("Spielberg), . . . }
 
 def gross_for_director(d)
   total = 0
