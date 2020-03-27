@@ -26,7 +26,6 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  puts source
   #source is an array of hashes
   result = []
   source_index = 0
