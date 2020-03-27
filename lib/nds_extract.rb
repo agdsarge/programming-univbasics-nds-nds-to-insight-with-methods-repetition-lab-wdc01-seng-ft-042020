@@ -28,6 +28,13 @@ def list_of_directors(source)
   # Write this implementation
   puts source
   #source is an array of hashes
+  result = []
+  source_index = 0
+  while source_index < source.length do
+    result.push(source[source_index][:name])
+    source_index += 1
+  end
+  return result
 end
 
 def total_gross(source)
