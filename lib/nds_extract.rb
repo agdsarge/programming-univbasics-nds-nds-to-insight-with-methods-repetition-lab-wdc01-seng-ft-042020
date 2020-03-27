@@ -20,7 +20,7 @@ def gross_for_director(d)
     index += 1
   end
   total
-end
+end #returns an Integer of director's total worldwide_gross
 
 def list_of_directors(source)
   #source is an array of hashes
