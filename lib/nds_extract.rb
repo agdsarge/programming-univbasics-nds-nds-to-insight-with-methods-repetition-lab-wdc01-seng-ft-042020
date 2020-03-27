@@ -31,7 +31,7 @@ def list_of_directors(source)
     source_index += 1
   end
   return result 
-end
+end #returns 
 
 def total_gross(source)
   # Write this implementation
