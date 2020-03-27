@@ -31,7 +31,7 @@ def list_of_directors(source)
     source_index += 1
   end
   return result 
-end #returns 
+end #returns an array of string ["Spielberg", "Ford"]
 
 def total_gross(source)
   # Write this implementation
