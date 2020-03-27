@@ -52,7 +52,8 @@ def total_gross(source)
     running_total += directors_totals(dir_array[dir_ind])
     dir_ind += 1
   end
-  puts ">>>" + running_total
+  puts ">>>" 
+  puts running_total
   return running_total  
 end
 
