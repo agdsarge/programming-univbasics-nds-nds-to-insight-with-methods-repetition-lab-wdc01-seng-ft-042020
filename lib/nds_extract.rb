@@ -47,6 +47,7 @@ def total_gross(source)
   #source is array of hashes
   running_total = 0
   dir_array = list_of_directors(source)
+  puts dir_array
   dir_ind = 0
   #while dir_ind < dir_array.length do
   #  running_total += directors_totals(dir_array[dir_ind])
