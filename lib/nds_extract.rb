@@ -36,10 +36,10 @@ end #returns an array of strings ["Spielberg", "Ford"]
 def total_gross(source)
   #source is array of hashes
   running_total = 0
-  dir_array = list_of_directors(source) # assigns dir_array to array of strings
+  dir_array = list_of_directors(source) # assigns dir_array to array of strings ["Spielberg", "Ford"]
   dir_hash = directors_totals(source) # assigns dir_hash to hash of {string => total}
   dir_ind = 0
-  while dir_ind < dir_array do
+  while dir_ind < dir_array.length do
     running_total += dir_hash[dir_array[dir_ind]]  
     dir_ind += 1
   end
