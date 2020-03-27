@@ -49,8 +49,9 @@ def total_gross(source)
   dir_array = list_of_directors(source)
   
   dir_ind = 0
-  #while dir_ind < dir_array.length do
-  #  running_total += directors_totals(dir_array[dir_ind])
+  while dir_ind < dir_array.length do
+    direc = dir_array[dir_ind]
+    running_total += directors_totals(direc)
   #  dir_ind += 1
   #end
   #puts ">>>" 
