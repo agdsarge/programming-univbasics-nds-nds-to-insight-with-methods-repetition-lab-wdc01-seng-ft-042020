@@ -40,7 +40,7 @@ def total_gross(source)
   dir_hash = directors_totals(source) # assigns dir_hash to hash of {string => total}
   dir_ind = 0
   while dir_ind < dir_array do
-    running_total += dir_hash[dir_array[dir_ind]]]  
+    running_total += dir_hash[dir_array[dir_ind]]  
     dir_ind += 1
   end
   return running_total  
